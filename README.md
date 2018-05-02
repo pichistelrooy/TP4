@@ -1,5 +1,15 @@
 # TP4
 
+REFERECNIAS: 
+En localhost:8080/TP4/Inicio nos trae agrega y muestra ID, Navegador y Sistema.
+En localhost:8080/TP4/InicioExtendido nos muestra todos los datos del UserAgent.
+En localhost:8080/TP4/Todos nos muestra todos los usarios que nos visitaron con sus datos(id, navegador,sistema).
+En localhost:8080/TP4/Sistema/MasUsado nos muestra el sistema que mas se uso y cuantas veces.
+En localhost:8080/TP4/Sistema/{OsName} nos muestra los usuarios que nos visitaron con el sistema declarado entre los corchetes.
+En localhost:8080/TP4/Navegador/{BrowserName} nos muestra los usuarios que nos visitaron con el sistema declarado entre los corchetes
+
+
+
 GOALS
 -mvn clean: Borra el directorio de salida(TARGET)
 -mvn compile: compila el proyecto y deja el resultado en TARGET/CLASSES
